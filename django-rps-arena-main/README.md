@@ -1,6 +1,8 @@
-# Welcome to your project
+# Rock Paper Scissors Arena
 
 ## Project info
+
+This is a Rock Paper Scissors game application with a Django backend and React frontend. The application allows users to register as players, play games against the computer, and view their game history.
 
 ## How can I edit this code?
 
@@ -48,8 +50,52 @@ npm run dev
 
 This project is built with:
 
+### Frontend
 - Vite
 - TypeScript
 - React
 - shadcn-ui
 - Tailwind CSS
+
+### Backend
+- Django
+- Django REST Framework
+- Django CORS Headers
+
+## Setup Instructions
+
+### Backend Setup
+
+1. Navigate to the backend directory:
+   ```sh
+   cd backend
+   ```
+
+2. Install Python dependencies:
+   ```sh
+   pip install -r ../requirements.txt
+   ```
+
+3. Run migrations:
+   ```sh
+   python manage.py migrate
+   ```
+
+4. Start the Django server:
+   ```sh
+   python manage.py runserver 8000
+   ```
+
+### Frontend Setup
+
+1. Install Node.js dependencies:
+   ```sh
+   npm install
+   ```
+
+2. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+3. Access the application at http://localhost:8080
